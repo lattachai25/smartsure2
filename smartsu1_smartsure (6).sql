@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 09, 2020 at 05:21 AM
+-- Generation Time: Nov 10, 2020 at 08:50 AM
 -- Server version: 5.7.24
 -- PHP Version: 7.2.19
 
@@ -5938,7 +5938,7 @@ CREATE TABLE `extended_warranty` (
 --
 
 INSERT INTO `extended_warranty` (`id`, `content`, `package_condition`, `time_period`, `responsible`, `privilege`, `except`, `unexcept`, `cover_detail`, `uncover_detail`, `mark`, `date`, `image`, `pdf`, `status`, `package`) VALUES
-(12, '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '<p>\n	aaa</p>\n', '2020-10-15', 'ed0b0-0b2f5-9eb46-car-photography-wallpaper-2000x1333-12372_39.jpg', '0369c-1b186-8c77d-dev.pdf', 1, 'Mini Standard 6');
+(13, '<p>\n	dffbfda</p>\n', '<p>\n	fbafbf</p>\n', '<p>\n	bfda</p>\n', '<p>\n	fdabf</p>\n', '<p>\n	bfdabf</p>\n', '<p>\n	fbdab</p>\n', '<p>\n	bfdabf</p>\n', '<p>\n	bfdabf</p>\n', '<p>\n	adbfa</p>\n', '<p>\n	abfab</p>\n', '2020-11-17', '6289e-5b299-ferrari_sf90_stradale_l_1.jpg', '0d5a6-ad1c0-ef351-test-2.pdf', 1, 'Gold Plus');
 
 -- --------------------------------------------------------
 
@@ -6458,16 +6458,10 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`id`, `news_detail`, `news_image`, `date`, `status`) VALUES
-(10, '<p>\n	test4</p>\n', '04e68-maxresdefault.jpg', '0000-00-00', 1),
-(11, '<p>\n	5</p>\n', '3d1d5-8b52255bd80d75fd50dac0772f9ac06f.jpg', '0000-00-00', 1),
-(12, '', '3bcb2-car-photography.jpg', '0000-00-00', 1),
-(13, '<p>\n	<span background-color:=\"\" font-size:=\"\" open=\"\" style=\"box-sizing: border-box; font-weight: bolder; color: rgb(44, 62, 80); font-family: &quot;Sukhumvit Set&quot;; font-size: 16px; margin: 0px; padding: 0px;\" text-align:=\"\"><span style=\"background-color:#f0ffff;\">Lorem Ipsum</span></span><span background-color:=\"\" font-size:=\"\" open=\"\" style=\"box-sizing: border-box; color: rgb(44, 62, 80); font-family: &quot;Sukhumvit Set&quot;; font-size: 16px;\" text-align:=\"\"><span style=\"background-color:#f0ffff;\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></span><span background-color:=\"\" font-size:=\"\" open=\"\" style=\"box-sizing: border-box; font-weight: bolder; color: rgb(44, 62, 80); font-family: &quot;Sukhumvit Set&quot;; font-size: 16px; margin: 0px; padding: 0px;\" text-align:=\"\"><span style=\"background-color:#f0ffff;\">Lorem Ipsum</span></span><span background-color:=\"\" font-size:=\"\" open=\"\" style=\"box-sizing: border-box; color: rgb(44, 62, 80); font-family: &quot;Sukhumvit Set&quot;; font-size: 16px;\" text-align:=\"\"><span style=\"background-color:#f0ffff;\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></span><span background-color:=\"\" font-size:=\"\" open=\"\" style=\"box-sizing: border-box; font-weight: bolder; color: rgb(44, 62, 80); font-family: &quot;Sukhumvit Set&quot;; font-size: 16px; margin: 0px; padding: 0px;\" text-align:=\"\"><span style=\"background-color:#f0ffff;\">Lorem Ipsum</span></span><span background-color:=\"\" font-size:=\"\" open=\"\" style=\"box-sizing: border-box; color: rgb(44, 62, 80); font-family: &quot;Sukhumvit Set&quot;; font-size: 16px;\" text-align:=\"\"><span style=\"background-color:#f0ffff;\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></span></p>\n', '', '0000-00-00', 1),
-(14, '<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	What is Lorem Ipsum?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	<strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n', '1e4f6-wp1972011.jpg', '0000-00-00', 1),
-(15, '<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	What is Lorem Ipsum?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	<strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n', '14699-nissan-gtr-r35-car-photography-2.jpg', '0000-00-00', 1),
-(16, '<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	What is Lorem Ipsum?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	<strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n', 'bd6e9-maxresdefault.jpg', '0000-00-00', 1),
-(17, '<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	What is Lorem Ipsum?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	<strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n', '1c8f2-car-photography.jpg', '0000-00-00', 1),
-(18, '<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	What is Lorem Ipsum?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	<strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n', 'cb192-1503269705.jpg', '0000-00-00', 0),
-(19, '<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	ทำไมจึงต้องนำมาใช้?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ แบบพอประมาณ ซึ่งเอามาใช้แทนการเขียนว่า &lsquo;ตรงนี้เป็นเนื้อหา, ตรงนี้เป็นเนื้อหา&#39; ได้ และยังทำให้มองดูเหมือนกับภาษาอังกฤษที่อ่านได้ปกติ ปัจจุบันมีแพ็กเกจของซอฟท์แวร์การทำสื่อสิ่งพิมพ์ และซอฟท์แวร์การสร้างเว็บเพจ (Web Page Editor) หลายตัวที่ใช้ Lorem Ipsum เป็นแบบจำลองเนื้อหาที่เป็นค่าตั้งต้น และเวลาที่เสิร์ชด้วยคำว่า &#39;lorem ipsum&#39; ผลการเสิร์ชที่ได้ก็จะไม่พบบรรดาเว็บไซต์ที่ยังคงอยู่ในช่วงเริ่มสร้างด้วย โดยหลายปีที่ผ่านมาก็มีการคิดค้นเวอร์ชั่นต่างๆ ของ Lorem Ipsum ขึ้นมาใช้ บ้างก็เป็นความบังเอิญ บ้างก็เป็นความตั้งใจ (เช่น การแอบแทรกมุกตลก)</p>\n<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	ทำไมจึงต้องนำมาใช้?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ แบบพอประมาณ ซึ่งเอามาใช้แทนการเขียนว่า &lsquo;ตรงนี้เป็นเนื้อหา, ตรงนี้เป็นเนื้อหา&#39; ได้ และยังทำให้มองดูเหมือนกับภาษาอังกฤษที่อ่านได้ปกติ ปัจจุบันมีแพ็กเกจของซอฟท์แวร์การทำสื่อสิ่งพิมพ์ และซอฟท์แวร์การสร้างเว็บเพจ (Web Page Editor) หลายตัวที่ใช้ Lorem Ipsum เป็นแบบจำลองเนื้อหาที่เป็นค่าตั้งต้น และเวลาที่เสิร์ชด้วยคำว่า &#39;lorem ipsum&#39; ผลการเสิร์ชที่ได้ก็จะไม่พบบรรดาเว็บไซต์ที่ยังคงอยู่ในช่วงเริ่มสร้างด้วย โดยหลายปีที่ผ่านมาก็มีการคิดค้นเวอร์ชั่นต่างๆ ของ Lorem Ipsum ขึ้นมาใช้ บ้างก็เป็นความบังเอิญ บ้างก็เป็นความตั้งใจ (เช่น การแอบแทรกมุกตลก)</p>\n<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; background-color: rgb(255, 255, 255);\">\n	ทำไมจึงต้องนำมาใช้?</h2>\n<p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">\n	มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ แบบพอประมาณ ซึ่งเอามาใช้แทนการเขียนว่า &lsquo;ตรงนี้เป็นเนื้อหา, ตรงนี้เป็นเนื้อหา&#39; ได้ และยังทำให้มองดูเหมือนกับภาษาอังกฤษที่อ่านได้ปกติ ปัจจุบันมีแพ็กเกจของซอฟท์แวร์การทำสื่อสิ่งพิมพ์ และซอฟท์แวร์การสร้างเว็บเพจ (Web Page Editor) หลายตัวที่ใช้ Lorem Ipsum เป็นแบบจำลองเนื้อหาที่เป็นค่าตั้งต้น และเวลาที่เสิร์ชด้วยคำว่า &#39;lorem ipsum&#39; ผลการเสิร์ชที่ได้ก็จะไม่พบบรรดาเว็บไซต์ที่ยังคงอยู่ในช่วงเริ่มสร้างด้วย โดยหลายปีที่ผ่านมาก็มีการคิดค้นเวอร์ชั่นต่างๆ ของ Lorem Ipsum ขึ้นมาใช้ บ้างก็เป็นความบังเอิญ บ้างก็เป็นความตั้งใจ (เช่น การแอบแทรกมุกตลก)</p>\n', 'c8cd1-1503269705-1-.jpg', '0000-00-00', 1);
+(22, '<p>\n	vdsfnzcbb</p>\n', '34ab0-a1.jpg', '2020-11-15', 1),
+(23, '<p>\n	&nbsp;gfs hdgjxhfgf</p>\n', 'ef52e-a3.jpg', '2020-11-17', 1),
+(24, '<p>\n	vfdbzgf</p>\n', 'c126c-173849.jpg', '2020-11-15', 1),
+(21, '<p>\n	dsb cx</p>\n', '71051-a1.jpg', '2020-11-17', 1);
 
 -- --------------------------------------------------------
 
@@ -6499,9 +6493,7 @@ CREATE TABLE `orico` (
 --
 
 INSERT INTO `orico` (`id`, `content`, `package_condition`, `time_period`, `responsible`, `privilege`, `except`, `unexcept`, `cover_detail`, `uncover_detail`, `mark`, `date`, `image`, `pdf`, `status`, `package`) VALUES
-(10, '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '', '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '<p>\n	zzz</p>\n', '2020-10-31', 'be8ba-57393-0f50d-8b52255bd80d75fd50dac0772f9ac06f.jpg', '6f4da-8c77d-dev.pdf', 1, 'Orico EW Care Platinum'),
-(9, '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '<p>\n	qqq</p>\n', '2020-10-21', '268de-d1c1c-79925-ferrari_sf90_stradale_l_1.jpg', '2e8a6-1b186-8c77d-dev.pdf', 1, 'Mini Standard 6'),
-(11, '<p>\n	zx Zg</p>\n', '<p>\n	fsmhgdfgs</p>\n', '<p>\n	mghfs</p>\n', '<p>\n	mhsm</p>\n', '<p>\n	mfs</p>\n', '<p>\n	smh</p>\n', '', '', '', '', '0000-00-00', '257a8-1b685-car12.jpg', '5eece-7c012-1b186-8c77d-dev.pdf', 1, 'Mini Standard 6');
+(14, '<p>\n	xdfsjdutdsngf</p>\n', '<p>\n	gsngfn</p>\n', '<p>\n	ngfs</p>\n', '<p>\n	ngfs</p>\n', '<p>\n	gfsn</p>\n', '<p>\n	ngfs</p>\n', '<p>\n	ngfs</p>\n', '<p>\n	ngfs</p>\n', '<p>\n	gfs</p>\n', '<p>\n	ngfsn</p>\n', '2020-11-20', 'b2ee0-ferrari_sf90_stradale_l_1.jpg', 'd1465-9bb64-ef351-test-2.pdf', 1, 'Mittare Bronze Standard SC');
 
 -- --------------------------------------------------------
 
@@ -6535,8 +6527,8 @@ INSERT INTO `package` (`id`, `package`, `detail`, `image`, `date`, `status`) VAL
 
 CREATE TABLE `partner` (
   `id` int(11) NOT NULL,
-  `partner_detail` varchar(255) NOT NULL,
   `partner_image` varchar(255) NOT NULL,
+  `partner_link` varchar(255) NOT NULL,
   `status` enum('0','1','') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -6544,12 +6536,12 @@ CREATE TABLE `partner` (
 -- Dumping data for table `partner`
 --
 
-INSERT INTO `partner` (`id`, `partner_detail`, `partner_image`, `status`) VALUES
-(2, 'aaaaa', '1051.jpg', '1'),
-(3, 'bbbbbb', 'A.jpg', '1'),
-(4, 'dwagr', 'B.jpg', '1'),
-(5, 'dwvfeb', 'C.jpg', '1'),
-(6, 'fdsng', 'D.jpg', '1');
+INSERT INTO `partner` (`id`, `partner_image`, `partner_link`, `status`) VALUES
+(12, '04223-a1.jpg', 'https://pantip.com/topic/35409461', '1'),
+(13, '3ec86-a4.jpg', 'https://stackoverflow.com/questions/36441679/how-do-i-add-images-in-laravel-view', '1'),
+(14, '8f443-a6_0.jpg', 'https://www.w3schools.com/css/css3_borders.asp', '1'),
+(15, 'a2fa8-a6_0.jpg', 'https://www.w3schools.com/cssref/css3_pr_overflow-x.asp', '1'),
+(16, 'f1900-a6.jpg', 'https://medium.com/chunza2542/%E0%B8%88%E0%B8%B0%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-react-%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%9A%E', '1');
 
 -- --------------------------------------------------------
 
@@ -6900,7 +6892,7 @@ ALTER TABLE `contactus`
 -- AUTO_INCREMENT for table `extended_warranty`
 --
 ALTER TABLE `extended_warranty`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `home`
@@ -6924,13 +6916,13 @@ ALTER TABLE `models`
 -- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `orico`
 --
 ALTER TABLE `orico`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `package`
@@ -6942,7 +6934,7 @@ ALTER TABLE `package`
 -- AUTO_INCREMENT for table `partner`
 --
 ALTER TABLE `partner`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `product`
