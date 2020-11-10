@@ -22,8 +22,7 @@ class Administrator extends CI_Controller {
 								   'head' =>   '',
 								   'content' => 'home_admin_view',
 								  // 'queryPublic' => $this->pub->get_about_add()
-
-								);
+						);
 
 		$this->load->view('template_bas_admin',$data);
 		}
