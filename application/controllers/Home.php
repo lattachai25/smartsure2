@@ -26,7 +26,7 @@ class Home extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template=array(
 		 'title'   => 'News Show | Smart Sure',
-		 'content' => 'Package_show',
+		 'content' => 'Package',
 		 'id' => $id
 		 );
 	   
