@@ -119,7 +119,7 @@
                 </li> 
 
                 <li>
-                    <a href="#"><i class="fa fa-users"></i>&nbsp; Partner<span ></span></a>
+                    <a href="<?php echo base_url('administrator/partner');?>"><i class="fa fa-users"></i>&nbsp; Partner<span ></span></a>
                     <!-- <ul class="nav nav-second-level">
                         
                         <li>

@@ -509,6 +509,23 @@ class Administrator extends CI_Controller {
 			$output = $crud->render();
 			$this->_example_output($output);
 	}
+
+	function partner(){
+		$crud = new grocery_CRUD();
+		$crud->set_theme("bootstrap");
+		$crud->set_table("partner")
+		->order_by('id','date')
+		->display_as('partner_link', 'Link')
+		->display_as('partner_image',' Images')
+		->display_as('date',' Day');
+
+		$crud->field_type('status','dropdown',array('1' => 'Active', '0' => 'Inactive'));
+		$crud->set_field_upload('partner_image','assets/uploads/partner');
+		
+		$output = $crud->render();
+		$this->_example_output($output);
+	}
+
 public function _example_output($output = null)
 	{
 		$this->load->view('example.php',$output);
