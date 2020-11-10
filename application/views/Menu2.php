@@ -27,7 +27,7 @@
                 </a>
             </td>
             <td width="50%" align="right">
-                <img alt="phone" src="<?php echo base_url(); ?>assets/images/tel01.png" width="50%" hging="200px;" class="pb-2">
+                <img alt="phone" src="<?php echo base_url(); ?>assets/images/tel01.png" width="40%" hging="200px;" class="pb-2">
             </td>
         </tr>
     </table>
