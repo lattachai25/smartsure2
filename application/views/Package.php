@@ -1,9 +1,10 @@
 <?php 
  $this->db->select("*");
  $this->db->from("Package");
+ $this->db->where("Package.id", $id);
  $this->db->where("Package.status", "1");
  $query = $this->db->get();
- $packages = $query->result();
+ $packages = $query->row();
  ?>
 
 <?php include('Banner.php'); ?>
@@ -14,6 +15,11 @@
                 <img src="<?php echo base_url(); ?>/assets/images/car.png" />
             </div>
             <div class="title-text">Orico EW Care</div>
+            <img class="top-img" src="<?php echo base_url(); ?>assets/uploads/Package/<?php echo $packages->image; ?>">
+            <?php  echo "packages :". $packages->package;  ?>
+            <?php  echo "packages :". $packages->detail;  ?>
+
+
         </div>
     </div>
 
