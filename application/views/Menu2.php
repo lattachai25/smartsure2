@@ -12,7 +12,12 @@
     background-color: #a3a3a3;
 }
 
-
+#nav a {
+    padding: 8px 30px !important;
+    margin: 0 10px;
+    font-weight: 100;
+    color: #2c3e50;
+}
 </style>
 
 <!--Desktop / Tablet -->
