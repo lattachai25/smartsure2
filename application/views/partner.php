@@ -20,8 +20,8 @@ $partners = $query->result();
             </div>
         </div>
     </div>
-          <div class="container">
-            <div class="container" > 
+        <div class="container">
+          <div class="container" > 
             <div class="row " >
               <?php foreach($partners as $partner): ?> 
                   <div class="col-3 " >                        
@@ -33,9 +33,7 @@ $partners = $query->result();
             </div> 
           </div>
         </div>  
-
-<br>
-        
+      <br>
 </div>
                 
     
@@ -50,7 +48,7 @@ $partners = $query->result();
 </script>
 
 
-    <style>
+<style>
 .frame {
   margin-bottom: 25px;
   padding: 10px;
@@ -98,7 +96,6 @@ $partners = $query->result();
 .egde{
   margin:5px;
 }
-
 
 </style>
 
