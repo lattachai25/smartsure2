@@ -9,8 +9,6 @@ $partners = $query->result();
 
 <?php include('Banner.php'); ?>
 
-000000000
-
 <div class="promotion">
     <div class="row">
         <div class="p-3 pb-4">
