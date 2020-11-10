@@ -26,7 +26,7 @@ $partners = $query->result();
             <div class="row " >
               <?php foreach($partners as $partner): ?> 
                   <div class="col-3 " >                        
-                    <a href="<?php echo $partner->partner_link;?>" target="_blank">
+                 <a href="<?php echo $partner->partner_link;?>" target="_blank">
                     <img class="sizePartner" src="<?php echo base_url();?>/assets/uploads/partner/<?php echo $partner->partner_image;?>" />
                 </a>  
               </div>
