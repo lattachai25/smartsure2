@@ -13,7 +13,7 @@
 }
 
 #nav a {
-    padding: 8px 30px !important;
+    padding: 8px 36px !important;
     margin: 0 10px;
     font-weight: 100;
     color: #2c3e50;
