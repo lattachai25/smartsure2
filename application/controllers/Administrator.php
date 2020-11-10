@@ -195,7 +195,7 @@ class Administrator extends CI_Controller {
 		$crud->set_table('package')
 	
 		->order_by('id','content','date')
-		->set_subject('About Content')
+		->set_subject('ผลิตภัณฑ์แนะนำ Content')
 		->display_as('package', 'Package')
 		->display_as('detail', 'Details')
 		->display_as('image',' Images')
@@ -247,7 +247,7 @@ class Administrator extends CI_Controller {
 		$crud->set_theme("bootstrap");
 		$crud->set_table("orico")
 		->order_by('id','content','date')
-		->set_subject('About' ,'Content')
+		->set_subject('Orico' ,'Content')
 		->display_as('package', 'Package')
 		->display_as('detail', 'Details')
 		->display_as('image',' Images')
