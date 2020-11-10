@@ -26,9 +26,8 @@
                     </div>
                 </a>
             </td>
-            <td width="50%" align="right" style="padding: 20px 20px 0;">
-                <img alt="phone" src="<?php echo base_url(); ?>assets/images/โทร-01.png" width="50px" class="pb-2">
-                <!-- <span style="margin-left: 15px; color: #ffffff; font-size: 23px; font-weight: bold;" class="tel"></span> -->
+            <td width="50%" align="right">
+                <img alt="phone" src="<?php echo base_url(); ?>assets/images/tel01.png" width="50%" hging="200px;" class="pb-2">
             </td>
         </tr>
     </table>
