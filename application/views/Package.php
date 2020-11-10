@@ -15,7 +15,7 @@
                 <img src="<?php echo base_url(); ?>/assets/images/car.png" />
             </div>
             <div class="title-text">Orico EW Care</div>
-            <img class="top-img" src="<?php echo base_url(); ?>assets/uploads/Package/<?php echo $packages->image; ?>">
+            <img class="top-img" src="<?php echo base_url(); ?>assets/uploads/Package/<?php echo $packages->image; ?>" width="100%" />
             <?php  echo "packages :". $packages->package;  ?>
             <?php  echo "packages :". $packages->detail;  ?>
 
