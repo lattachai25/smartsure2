@@ -33,8 +33,7 @@
     </table>
    
     
-        <div id="nav" >
-            
+        <div id="nav" > 
             <a class="<?php if($this->uri->segment(1)==""){echo "active";}?>" href="<?php echo base_url();?>" id="home" >หน้าหลัก</a>
             <a class="<?php if($this->uri->segment(1)=="about"){echo "active";}?>" href="<?php echo base_url();?>about" id="about" >เกี่ยวกับเรา</a>
             <div class="service-dropdown" >
@@ -50,7 +49,6 @@
             <a class="<?php if($this->uri->segment(1)=="news"){echo "active";}?>" href="<?php echo base_url();?>news" id="news">ข่าวสารและกิจกรรม</a>
             <a class="<?php if($this->uri->segment(1)=="partner"){echo "active";}?>" href="<?php echo base_url();?>partner" id="partner">พันธมิตร</a>
             <a class="<?php if($this->uri->segment(1)=="contactus"){echo "active";}?>" href="<?php echo base_url();?>contactus" id="contactus">ติดต่อเรา</a>
-
         </div>
 </div>
 
