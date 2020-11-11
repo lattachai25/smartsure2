@@ -13,6 +13,10 @@
 }
 
 #nav a {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1ceee9064d11f54d79658db556c92698db9e7221
     padding: 8px 45px !important;
     margin: 8px 1px;
     padding: 8px 36px !important;

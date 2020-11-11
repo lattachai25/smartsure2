@@ -120,11 +120,10 @@ $ccs = $query->result();
 												<?php endforeach; ?>
 											</select>
 
-											<input type="number" id="mileage" name="mileage" class="form-control form-control-sm" 
-											placeholder="เลขไมล์"autocomplete="off" 
+											<input type="number" id="mileage" name="mileage" class="form-control" style="background-color:white; color:#000000; "
+											placeholder=" เลขไมล์" autocomplete="off" 
 											value="" required>
-													
-											
+
                         <button type="submit" class="btn btn-sm">ค้นหา</button>
                     </form>
                     
@@ -281,9 +280,9 @@ a {
   border-bottom: 2px solid #ffffff;
 }
 .search-form input::placeholder{
-  text-align: center;
-  font-size: 13px;
-  color: #ffffff;
+  text-align: left;
+  font-size: 1rem;
+  color: #000;
 }
 .search-form button{
   margin-top: 5px;
