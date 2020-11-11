@@ -16,8 +16,8 @@
             </div>
             <div class="title-text"> <?php  echo $packages->package;  ?> </div>
             <img class="top-img" src="<?php echo base_url(); ?>assets/uploads/Package/<?php echo $packages->image; ?>" width="100%" />
-            <?php  echo "packages :". $packages->package;  ?>
-            <?php  echo "packages :". $packages->detail;  ?>
+            <?php  echo $packages->package;  ?>
+            <?php  echo $packages->detail;  ?>
 
 
         </div>

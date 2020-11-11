@@ -13,16 +13,14 @@
 }
 
 #nav a {
-<<<<<<< HEAD
     padding: 8px 45px !important;
     margin: 8px 1px;
-=======
     padding: 8px 36px !important;
     margin: 0 10px;
->>>>>>> c04227d05c0be228f84e4886961d7bd7b98fec58
     font-weight: 100;
     color: #2c3e50;
 }
+
 </style>
 
 <!--Desktop / Tablet -->
