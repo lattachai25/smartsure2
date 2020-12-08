@@ -1,4 +1,4 @@
-<!-- <?php
+ <!-- <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Cimb extends CI_Controller {
@@ -33,4 +33,5 @@ class Cimb extends CI_Controller {
 	$this->load->view('template',$template, $contents);
 		}
 	
-} -->
+} 
+-->

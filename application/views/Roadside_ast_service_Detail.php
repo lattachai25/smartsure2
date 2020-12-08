@@ -20,7 +20,6 @@ $Roadside_ast_service = $query->row();
             <div class="col-lg-12">
               <div>
 							<img src="<?php echo base_url();?>/assets/uploads/roadside_ast_service/<?php echo $Roadside_ast_service->image_main?>" width="100%" />
-		     
               </div>
             </div>
           </div>
@@ -145,8 +144,7 @@ $Roadside_ast_service = $query->row();
         </div>
 		</div>
 
-			<div class="button" >
-				
+			<div class="button" >	
 			<!-- <a href="<?php echo base_url(); ?>assets/uploads/roadside_ast_service/<?php echo $Roadside_ast_service->pdf?>" target="_blank" class="btn btn-info">รายละเอียดเพิ่มเติม</a> -->
 			<a href="<?php echo base_url(); ?>customerInfo" class="btn btn-buy">ซื้อผลิตภัณฑ์</a>	
 			</div>

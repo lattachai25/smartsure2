@@ -113,6 +113,7 @@ $ccs = $query->result();
 														for ($x = 1990; $x <= date('Y'); $x++) {
 																echo " <option value='.$x.'>".$x."</option>" ;
 														}
+<<<<<<< Updated upstream
 													?>
                         </select>
 
@@ -127,6 +128,22 @@ $ccs = $query->result();
                             style="background-color:white; color:#000000; " placeholder=" เลขไมล์" autocomplete="off"
                             value="" required>
 
+=======
+													?> 										
+											</select>
+											
+											<select class="form-control" id="exampleFormControlSelect1">
+												<option>ขนาดเครื่องยนต์</option>
+												<?php foreach($ccs as $ccss): ?>
+												<option value="<?php echo $ccss->cc; ?>"><?php echo $ccss->cc; ?></option>
+												<?php endforeach; ?>
+											</select>
+
+											<input type="number" id="mileage" name="mileage" class="form-control form-control-sm"  
+											placeholder="เลขไมล์"autocomplete="off" 
+											value="" required>
+													
+>>>>>>> Stashed changes
                         <button type="submit" class="btn btn-sm">ค้นหา</button>
                     </form>
 

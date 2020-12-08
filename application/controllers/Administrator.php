@@ -464,7 +464,7 @@ class Administrator extends CI_Controller {
 			$crud->field_type('status','dropdown',array('1' => 'Active', '0' => 'Inactive'));
 			$crud->set_field_upload('image','assets/uploads/roadside_ast_service');
 			$crud->set_field_upload('image_main','assets/uploads/roadside_ast_service');
-			$crud->set_field_upload('pdf','assets/uploads/roadside_ast_service');
+			// $crud->set_field_upload('pdf','assets/uploads/roadside_ast_service');
 			$output = $crud->render();
 			$this->_example_output($output);
 	}

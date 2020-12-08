@@ -13,6 +13,7 @@
 }
 
 #nav a {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 
@@ -21,6 +22,10 @@
     margin: 8px 1px;
     padding: 8px 36px !important;
     margin: 0 10px;
+=======
+    margin: 8px 1px;
+    padding: 8px 36px !important;
+>>>>>>> Stashed changes
     font-weight: 100;
     color: #2c3e50;
 }

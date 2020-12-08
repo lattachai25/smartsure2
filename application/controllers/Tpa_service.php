@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Roadside_ast_service extends CI_Controller {
+class Tpa_service extends CI_Controller {
 
 	public function __construct()
 		{
@@ -11,24 +11,24 @@ class Roadside_ast_service extends CI_Controller {
 	public function index(){
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
-			   'title' => 'Roadside_ast_service | Smart Sure',
-			   'content' => 'Roadside_ast_service',
-			   
-          );
+			   'title' => 'Tpa_service | Smart Sure',
+			   'content' => 'Tpa_service'
+			);
 
-		// $template['content'] = $this->load->view('About',$contents,TRUE);
-		$this->load->view('template',$template, $contents);
+		// $template['content'] = $this->load->view('home',$contents,TRUE);
+		$this->load->view('template',$template);
 	}
 	
 	public function view($id=null){
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
-			   'title' => 'Product Detail | Smart Sure',
-			   'content' => 'Roadside_ast_service_Detail',
+			   'title' => 'Showroom Detail | Smart Sure',
+			   'content' => 'Showroom',
 			   'id' => $id
           );
 	// $template['content'] = $this->load->view('About',$contents,TRUE);
-	
 	$this->load->view('template',$template, $contents);
 		}
 }
+?>
+

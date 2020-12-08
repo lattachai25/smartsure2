@@ -22,27 +22,29 @@
         <div class="mx-5 my-4">
             <?php foreach($products as $extended_warranty): ?>
                 <div class="row frame mb-3">
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                         <div class="package-title"></div>
                         <div class="package-title" ><?php echo mb_substr($extended_warranty->package,0,600,'UTF-8'); ?></div>
                         <div class="images">
-                            <img src="<?php echo base_url();?>/assets/uploads/extended_warranty/<?php echo $extended_warranty->image?>" />
+                            <img src="<?php echo base_url();?>/assets/uploads/extended_warranty/<?php echo $extended_warranty->image?>" height="380px" />
                         </div>
                     </div>
-              
-                    <div class="col-lg-8">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+
                         <div class="details-title">รายละเอียดผลิตภัณฑ์</div>
                         <div class="details">
                             <div>
                             <?php echo mb_substr($extended_warranty->content,0,600,'UTF-8'); ?>
                             </div>
                         </div>
-                        <div class="button" style="margin-top: 150px;">
-													<a href="<?php echo base_url(); ?>extended_warranty/view/<?php echo $extended_warranty->id ?>" class="btn btn-more" > เพิ่มเติม</a></div>
+                      </div>
+                        <div class="col-lg-12">
+                          <div class="button" style="float: right;">
+                            <a href="<?php echo base_url(); ?>extended_warranty/view/<?php echo $extended_warranty->id ?>" class="btn btn-more" > เพิ่มเติม</a></div>
                     </div>
                 </div>
-            <?php endforeach; 
-            ?>  
+            <?php endforeach; ?>  
         </div>
     </div>
 </div>
@@ -55,6 +57,9 @@
 .frame {
   padding: 10px;
   border: 9px solid #a2ced1;
+	background-image: url("./assets/uploads/extended_warranty/img2.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 .images{
   width: 100%;
