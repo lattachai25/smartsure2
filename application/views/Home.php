@@ -61,10 +61,11 @@ $packages = $query->result();
       </div>
 
 
-      <div class="col-12 button">
+      <!-- <div class="col-12 button">
       <a href="<?php echo base_url(); ?>product" class="btn btn-more">
         เพิ่มเติม</a>
-      </div>
+      </div> -->
+      <br>
     </div>
     <!-- มารู้จัก SMART SURE กันเถอะ -->
     <div class="row p-3">

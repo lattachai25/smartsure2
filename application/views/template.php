@@ -23,6 +23,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo  $title; ?></title>
+
+
+
+    <meta property="og:description"content="smartsure บริการตรวจสภาพรถมือสองจากทีมช่างผู้เชี่ยวชาญในราคาที่คุ้มค่าและตรงใจคุณมากที่สุด " />
+    <meta property="og:title"content="Smartsure บริการตรวจสภาพรถมือสองพร้อมบริการช่วยเหลือฉุกเฉิน 24 ชม." />
+    <meta property="og:url"content="http://smartsure.co.th/" />
+    <!-- <meta property="og:type"content="article" /> -->
+    <!-- <meta property="og:locale"content="pt-br" />
+    <meta property="og:locale:alternate"content="pt-pt" />
+    <meta property="og:locale:alternate"content="en-us" /> -->
+    <meta property="og:site_name"content="smartsure" />
+    <!-- <meta property="og:image"content="http://image.url.com/cover.jpg" />
+    <meta property="og:image"content="http://image.url.com/img1.jpg" />
+    <meta property="og:image"content="http://image.url.com/img2.jpg" />
+    <meta property="og:image"content="http://image.url.com/img3.jpg" /> -->
+    <meta property="og:image:url"content="http://smartsure.co.th/assets/images/LOGO2.png" />
+    <meta property="og:image:size"content="300" />
+
+    <meta name="twitter:card"content="summary" />
+    <meta name="twitter:title"content="Smartsure บริการตรวจสภาพรถมือสองพร้อมบริการช่วยเหลือฉุกเฉิน 24 ชม." />
+    <!-- <meta name="twitter:site"content="@LuizVinicius73" /> -->
+
+
+
 	
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
