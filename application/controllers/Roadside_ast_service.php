@@ -25,6 +25,7 @@ class Roadside_ast_service extends CI_Controller {
 		$template = array(
 			   'title' => 'Product Detail | Smart Sure',
 			   'content' => 'Roadside_ast_service_Detail',
+			   'description' => 'Smartsure พร้อมดูแลรถของคุณตลอด 24 ชม. ให้คุณอุ่นใจตลอดการเดินทาง',
 			   'id' => $id
           );
 	// $template['content'] = $this->load->view('About',$contents,TRUE);

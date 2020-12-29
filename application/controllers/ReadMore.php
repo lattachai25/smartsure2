@@ -13,7 +13,7 @@ class ReadMore extends CI_Controller {
 		$template = array(
 			   'title' => 'J MOOK',
 			   'content' => 'ReadMore',
-			   
+			   'description' => 'Smartsure บริการที่ช่วยให้คุณอุ่นใจเมื่อซื้อรถยนต์มือสอง พร้อมตรวจเช็คสภาพรถครบวงจร',
           );
 
 		// $template['content'] = $this->load->view('About',$contents,TRUE);

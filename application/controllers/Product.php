@@ -12,8 +12,8 @@ class Product extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Product | Smart Sure',
-			   'content' => 'Product'
-			   
+			   'content' => 'Product',
+			   'description' => 'Smartsure ยกระดับบริการหลังการขายสำหรับรถมือสองที่ได้มาตรฐานระดับสากล',
           );
 
 		// $template['content'] = $this->load->view('home',$contents,TRUE);

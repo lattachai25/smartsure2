@@ -13,6 +13,7 @@ class Smart_tpa extends CI_Controller {
 		$template = array(
 			   'title' => 'smart_tpa | Smart Sure',
 			   'content' => 'smart_tpa',
+			   'description' => 'Smartsure บริการดูแลรถยนต์ฉุกเฉินบนท้องถนนที่ครอบคลุมทั่วประเทศ',
 			   
           );
 

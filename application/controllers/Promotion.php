@@ -12,8 +12,8 @@ class Promotion extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Promotion | Smart Sure',
-			   'content' => 'Promotion'
-			   
+			   'content' => 'Promotion',
+			   'description' => 'แค่มี Smartsure ก็อุ่นใจตลอดเส้นทาง ด้วยบริการช่วยเหลือฉุกเฉินบนท้องถนนตลอด 24 ชม. ',
           );
 
 		// $template['content'] = $this->load->view('home',$contents,TRUE);

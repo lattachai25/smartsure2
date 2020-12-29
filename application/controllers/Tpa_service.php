@@ -12,7 +12,8 @@ class Tpa_service extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Tpa_service | Smart Sure',
-			   'content' => 'Tpa_service'
+			   'content' => 'Tpa_service',
+			   'description' => 'ผู้เชี่ยวชาญด้านการช่วยเหลือฉุกเฉินบนท้องถนนตลอด 24 ชม. จาก Smartsure',
 			);
 
 		// $template['content'] = $this->load->view('home',$contents,TRUE);

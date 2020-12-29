@@ -12,7 +12,8 @@ class Showroom extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Showroom | Smart Sure',
-			   'content' => 'Showroom'
+			   'content' => 'Showroom',
+			   'description' => 'ให้ Smartsure ดูแลในทุกเส้นทางของคุณ ด้วยบริการช่วยเหลือฉุกเฉินบนท้อนถนน ตลอด 24 ชม.',
 			);
 
 		// $template['content'] = $this->load->view('home',$contents,TRUE);

@@ -12,7 +12,9 @@ class Partner extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Partner | Smart Sure',
-			   'content' => 'Partner'
+			   'content' => 'Partner',
+			   'description' => 'Smartsure ผู้ให้บริการช่วยเหลือฉุกเฉินบนท้องถนน 24 ชม. ที่เต๊นท์รถกว่า 270 แห่งไว้วางใจ',
+			   
 			);
 
 		// $template['content'] = $this->load->view('home',$contents,TRUE);
