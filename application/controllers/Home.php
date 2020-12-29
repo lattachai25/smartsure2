@@ -12,7 +12,8 @@ class Home extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Home | Smart Sure',
-			   'content' => 'Home'
+			   'content' => 'Home',
+			   'description' => 'Smartsure พร้อมดูแลรถของคุณตลอด 24 ชม. ให้คุณอุ่นใจตลอดการเดินทาง',
 			   
           );
 

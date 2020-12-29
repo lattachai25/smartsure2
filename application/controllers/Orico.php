@@ -13,6 +13,7 @@ class Orico extends CI_Controller {
 		$template = array(
 			   'title' => 'Orico | Smart Sure',
 			   'content' => 'Orico',
+			   'description' => 'Smartsure บริการตรวจสภาพรถมือสองพร้อมบริการช่วยเหลือฉุกเฉิน 24 ชม.',
 			   
           );
 

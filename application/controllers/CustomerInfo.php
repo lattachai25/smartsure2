@@ -13,6 +13,7 @@ class CustomerInfo extends CI_Controller {
 		$template = array(
 			   'title' => 'ฝากข้อมูลติดต่อกลับ | Smart Sure',
 			   'content' => 'Customerinfo',
+			   'description' => 'Smartsure บริการตรวจสภาพรถมือสองจากทีมช่างผู้เชี่ยวชาญในราคาที่คุ้มค่าและตรงใจคุณมากที่สุด',
 			   
           );
 
