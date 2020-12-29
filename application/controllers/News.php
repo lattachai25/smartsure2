@@ -12,7 +12,8 @@ class News extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'News | Smart Sure',
-			   'content' => 'News'
+			   'content' => 'News',
+			   'description' => 'Smartsure ยกระดับบริการหลังการขายสำหรับรถมือสองที่ได้มาตรฐานระดับสากล',
 			   
           );
 

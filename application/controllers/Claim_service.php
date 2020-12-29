@@ -13,6 +13,7 @@ class Claim_service extends CI_Controller {
 		$template = array(
 			   'title' => 'Claim_service | Smart Sure',
 			   'content' => 'Claim_service',
+			   'description' => 'smart sure ผู้ให้บริการช่วยเหลือฉุกเฉินบนท้องถนน ที่ครอบคลุมทุกปัญหา ไม่ว่าจะเป็นบริการรถยก จั๊มพ์แบตเตอรี่ เปลี่ยนยางอะไหล่ ตลอด 24 ชม. โดยทีมงานมืออาชีพที่ได้รับความไว้วางใจจากเต๊นท์รถกว่า 270 แห่งทั่วประเทศ',
 			   
           );
 

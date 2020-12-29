@@ -12,7 +12,8 @@ class Details extends CI_Controller {
 		$contents['cart_session'] = $this->session->userdata('cart_session');
 		$template = array(
 			   'title' => 'Product Detail | Smart Sure',
-			   'content' => 'Details'
+			   'content' => 'Details',
+			   'description' => 'ผู้ให้คำปรึกษาและคัดสรรบริการหลากหลายรูปแบบ ไม่ว่าจะเป็นการรับประกันอะไหล่รถยนต์ การช่วยเหลือฉุกเฉินบนท้องถนนตลอด 24 ชม. และการจัดการด้านการเคลม เพื่อให้ตรงตามความต้องการของลูกค้ามากที่สุด จึงทำให้ Smartsure เป็นหนึ่งในบริการหลังการขายสำหรับรถยนต์มือสองที่ครบวงจรและใหญ่ที่สุดในอาเซียน '
           );
 
 		// $template['content'] = $this->load->view('About',$contents,TRUE);

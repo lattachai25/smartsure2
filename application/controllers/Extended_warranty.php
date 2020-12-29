@@ -13,6 +13,7 @@ class Extended_warranty extends CI_Controller {
 		$template = array(
 			   'title' => 'Extended_warranty | Smart Sure',
 			   'content' => 'Extended_warranty',
+			   'description' => 'ผู้ให้บริการด้านประกันภัยรถยนต์ที่คัดสรรประกันภัยที่คุ้มค่า เหมาะสม และตรงตามความต้องการของคุณมากที่สุด พร้อมบริการช่วยเหลือฉุกเฉินบนท้องถนนตลอด 24 ชม. บริการด้วยมาตรฐานระดับสากล ให้คุณมั่นใจและขับขี่รถได้อย่างอุ่นใจตลอดการเดินทาง ',
 			   
           );
 
