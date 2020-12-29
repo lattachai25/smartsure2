@@ -13,7 +13,7 @@ class About extends CI_Controller {
 		$template = array(
 			   'title' => 'About | Smart Sure',
 			   'content' => 'About',
-			   
+			   'description' => 'บริษัท สมาร์ท ชัวร์ จำกัด มุ่งเน้นให้คำปรึกษาและดำเนินธุรกิจเกี่ยวกับบริการหลังการขายอย่างครบวงจรสำหรับผู้ประกอบการด้านรถยนต์โดยเฉพาะ',
           );
 
 		// $template['content'] = $this->load->view('About',$contents,TRUE);

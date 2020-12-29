@@ -25,24 +25,24 @@
     <title><?php echo  $title; ?></title>
 
 
+    <meta property="og:description" content="<?php echo (isset($description) ? $description : "")  ?>" />
+    <meta property="og:title" content="<?php echo (isset($title) ? $title : "")  ?>" />
+    <meta property="og:url" content="<?php echo $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]?>" />
 
-    <meta property="og:description"content="smartsure บริการตรวจสภาพรถมือสองจากทีมช่างผู้เชี่ยวชาญในราคาที่คุ้มค่าและตรงใจคุณมากที่สุด " />
-    <meta property="og:title"content="Smartsure บริการตรวจสภาพรถมือสองพร้อมบริการช่วยเหลือฉุกเฉิน 24 ชม." />
-    <meta property="og:url"content="http://smartsure.co.th/" />
     <!-- <meta property="og:type"content="article" /> -->
     <!-- <meta property="og:locale"content="pt-br" />
     <meta property="og:locale:alternate"content="pt-pt" />
     <meta property="og:locale:alternate"content="en-us" /> -->
-    <meta property="og:site_name"content="smartsure" />
+    <meta property="og:site_name" content="smartsure" />
     <!-- <meta property="og:image"content="http://image.url.com/cover.jpg" />
     <meta property="og:image"content="http://image.url.com/img1.jpg" />
     <meta property="og:image"content="http://image.url.com/img2.jpg" />
     <meta property="og:image"content="http://image.url.com/img3.jpg" /> -->
-    <meta property="og:image:url"content="http://smartsure.co.th/assets/images/LOGO2.png" />
-    <meta property="og:image:size"content="300" />
+    <meta property="og:image:url" content="http://smartsure.co.th/assets/images/LOGO2.png" />
+    <meta property="og:image:size" content="300" />
 
-    <meta name="twitter:card"content="summary" />
-    <meta name="twitter:title"content="Smartsure บริการตรวจสภาพรถมือสองพร้อมบริการช่วยเหลือฉุกเฉิน 24 ชม." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="<?php echo (isset($title) ? $title : "")  ?>" />
     <!-- <meta name="twitter:site"content="@LuizVinicius73" /> -->
 
 
