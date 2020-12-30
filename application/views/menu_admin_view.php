@@ -115,7 +115,7 @@
                         </li>
                         <li>
                             <a href="<?php echo base_url('administrator/orico');?>"><i class="fa fa-circle"></i>&nbsp;
-                                Orico</a>
+                                Orico care</a>
                         </li>
                     </ul>
                 </li>

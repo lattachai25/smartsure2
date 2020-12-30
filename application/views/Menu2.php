@@ -13,21 +13,17 @@
 }
 
 #nav a {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
 
->>>>>>> 1ceee9064d11f54d79658db556c92698db9e7221
     padding: 8px 45px !important;
     margin: 8px 1px;
     padding: 8px 36px !important;
     margin: 0 10px;
-=======
-    margin: 8px 1px;
+
+    /* margin: 8px 1px;
     padding: 8px 36px !important;
->>>>>>> Stashed changes
+
     font-weight: 100;
-    color: #2c3e50;
+    color: #2c3e50; */
 }
 
 </style>
@@ -59,7 +55,7 @@
                         <a class="<?php if($this->uri->segment(1)=="Extended_warranty"){echo "active";} ?>" href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>   
                         <a class="<?php if($this->uri->segment(1)=="Roadside_ast_service"){echo "active";}?>" href="<?php echo base_url();?>Roadside_ast_service">Smart Roadside Assistant Service</a>
                         <a class="<?php if($this->uri->segment(1)=="claim_service"){echo "active";}?>" href="<?php echo base_url();?>claim_service">Smart Claim Service</a>
-                        <a class="<?php if($this->uri->segment(1)=="orico"){echo "active";}?>" href="<?php echo base_url();?>orico">Orico</a>
+                        <a class="<?php if($this->uri->segment(1)=="orico"){echo "active";}?>" href="<?php echo base_url();?>oricocare">Orico Care</a>
                     </div>
             </div>
             <!-- <a href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a> -->
@@ -88,7 +84,7 @@
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>Roadside_ast_service">Smart Roadside Assistant Service</a>
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>Claim_Service">Smart Claim Service</a>
-                <a class="about nav-item nav-link" href="<?php echo base_url();?>Orico">Orico</a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>Orico">Orico </a>
 
                 <!-- <a class="promotion nav-item nav-link" href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a> -->
                 <a class="news nav-item nav-link" href="<?php echo base_url();?>news">ข่าวสารและกิจกรรม</a>
