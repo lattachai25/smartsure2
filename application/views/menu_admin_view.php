@@ -115,8 +115,13 @@
                         </li>
                         <li>
                             <a href="<?php echo base_url('administrator/orico');?>"><i class="fa fa-circle"></i>&nbsp;
-                                Orico care</a>
+                                Orico EW </a>
                         </li>
+                        <li>
+                            <a href="<?php echo base_url('administrator/orico_rsa');?>"><i class="fa fa-circle"></i>&nbsp;
+                                Orico RSA </a>
+                        </li>
+                        
                     </ul>
                 </li>
 

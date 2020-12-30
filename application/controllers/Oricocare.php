@@ -31,4 +31,6 @@ class Oricocare extends CI_Controller {
 	// $template['content'] = $this->load->view('About',$contents,TRUE);
 	$this->load->view('template',$template, $contents);
 		}
+
+	
 }

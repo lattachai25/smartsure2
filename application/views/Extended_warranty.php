@@ -42,7 +42,7 @@
                         <div class="col-lg-12">
                           <div class="button" style="float: right;">
                             <a href="<?php echo base_url(); ?>extended_warranty/view/<?php echo $extended_warranty->id ?>" class="btn btn-more" > เพิ่มเติม</a></div>
-                    </div>
+                        </div>
                 </div>
             <?php endforeach; ?>  
         </div>

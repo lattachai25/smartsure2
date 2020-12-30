@@ -286,6 +286,47 @@ class Administrator extends CI_Controller {
 		$this->_example_output($output);
 	}
 
+	function orico_rsa(){
+		$crud = new grocery_CRUD();
+		$crud->set_theme("bootstrap");
+		$crud->set_table("orico_rsa")
+		->order_by('id','content','date')
+		->set_subject('orico_rsa' ,'Content')
+		->display_as('package', 'Package')
+		->display_as('detail', 'Details')
+		->display_as('image',' Images')
+		->display_as('date',' Day');
+
+		$crud->field_type('status','dropdown',array('1' => 'Active', '0' => 'Inactive'));
+		$crud->field_type('package','dropdown',array(
+			'Mini Basic 1' => 'Mini Basic 1', 
+			'Mini Basic 3' => 'Mini Basic 3', 
+			'Mini Standard 6' => 'Mini Standard 6', 
+			'Bronze Standard' => 'Bronze Standard', 
+			'Silver Standard' => 'Silver Standard', 
+			'Gold Plus' => 'Gold Plus', 
+			'TCL Standard' => 'TCL Standard', 
+			'Bronze Standard SC' => 'Bronze Standard SC', 
+			'Mittare Bronze Standard' => 'Mittare Bronze Standard', 
+			'Mittare Bronze Standard SC' => 'Mittare Bronze Standard SC', 
+			'Auto Smart Standard' => 'Auto Smart Standard', 
+			'Auto Smart Diamond' => 'Auto Smart Diamond', 
+			'Orico Standard Package' => 'Orico Standard Package', 
+			'Orico EW Care Platinum' => 'Orico EW Care Platinum', 
+			'Orico RSA Service' => 'Orico RSA Service', 
+			// 'CIMB Plus Package' => 'CIMB Plus Package', 
+			// 'CIMB Premium Package' => 'CIMB Premium Package', 
+			'White Card'=>'White Card',
+			'White Card Plus'=>'White Card Plus',
+			'Roadside'=>'Roadside ', 
+			'Package' =>'Package',
+			'ข่าวสารและกิจกรรม'=>'ข่าวสารและกิจกรรม'));
+		$crud->set_field_upload('image','assets/uploads/Orico_rsa');
+		$crud->set_field_upload('pdf','assets/uploads/PdfOricoRsa');
+		
+		$output = $crud->render();
+		$this->_example_output($output);
+	}
 
 
 	// function cimb(){

@@ -86,7 +86,7 @@ $Orico = $query->row();
             </div>
           </div>
 
-           <hr />
+           <!-- <hr />
           <div class="row topic-detail">
             <div class="col-lg-3 font-weight-bold">
               รถที่สามารถได้รับความคุ้มครอง
@@ -108,7 +108,7 @@ $Orico = $query->row();
                 <?php echo $Orico->cover_detail ?>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <hr />
           <div class="row topic-detail">
