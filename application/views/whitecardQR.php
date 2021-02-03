@@ -12,30 +12,53 @@ $WhitecardQR = $query->result();
     </head>
     <body>
 
-        <div style="position:relative;">
-            <img  src="<?php base_url(); ?>assets/uploads/whitecard_qr/whitecard.jpg" width="100%"   alt="" />
+        <div >
+            <img  src="<?php base_url(); ?>assets/uploads/whitecard_qr/whitecard.png" width="100%"   alt="" />
             
-            <div class="row">
-                <div class="col-10"></div>
-                <div class="col-2">
-                    <a href="https://line.me/R/ti/p/@wsmart" >
-                        <img class="lineads" src="<?php base_url(); ?>assets/uploads/whitecard_qr/line_button.jpg" width="100%"   alt="" />   
+          
+                    <a style="    z-index: 0;
+                                float: right;
+                                margin-top: 161%;
+                                margin-left: -29%;
+                                padding-bottom: 15px;
+                                padding-top: 40px;
+                                padding-right: 211px;
+                                padding-left: 100px;
+                                position: absolute;
+                                font-size: 32;
+                                color: #F4F4F4;
+                                text-decoration: none;" 
+                                href="https://line.me/R/ti/p/@wsmart" >
+                    <!-- <a class="buttonline" href="https://line.me/R/ti/p/@wsmart" > -->
+                   
+                          ...
+                    
+                        <!-- <img class="" src="<?php base_url(); ?>assets/uploads/whitecard_qr/whitecard.png" width="100%"   alt="" />    -->
                     </a>   
-                </div>
-            </div>        
+                  
         </div>
     </body>
 
     <style>
-           
+           .buttonline{
+            width: 274px;
+            height: 100px;
+            border:10px solid #00BD00;
+            border-radius: 10px;
+            text-decoration: none;
+            color:#00BD00;
+            text-align: center;
+            font-size: 50;
+           }
+
             .lineads{
-                width: 274px;
-                height: 100px;
+                width: 50%;
+                height: 100%;
                 right: 10%;
                 bottom: 5%;
                 /* top: 0; */
                 /* z-index: 0; */
-                position: absolute;
+                /* position: absolute; */
 
        
         }
