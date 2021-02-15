@@ -1,8 +1,8 @@
 
 <style>
 #nav a.active {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 600;
     color: #ffffff!important;
 }
 
@@ -13,17 +13,13 @@
 }
 
 #nav a {
-
     padding: 8px 45px !important;
     margin: 8px 1px;
     padding: 8px 36px !important;
     margin: 0 10px;
-
-    /* margin: 8px 1px;
-    padding: 8px 36px !important;
-
-    font-weight: 100;
-    color: #2c3e50; */
+    font-weight: 400;
+    color: #2c3e50;
+    text-decoration: none;
 }
 
 </style>
@@ -40,12 +36,10 @@
                 </a>
             </td>
             <td width="50%" align="right">
-                <img alt="phone" src="<?php echo base_url(); ?>assets/images/tel01.png" width="40%" hging="200px;" class="pb-2">
+                <img alt="phone" src="<?php echo base_url(); ?>assets/images/โทรศัพท์-01.png" width="40%"  class="pb-2">
             </td>
         </tr>
     </table>
-   
-    
         <div id="nav" > 
             <a class="<?php if($this->uri->segment(1)==""){echo "active";}?>" href="<?php echo base_url();?>" id="home" >หน้าหลัก</a>
             <a class="<?php if($this->uri->segment(1)=="about"){echo "active";}?>" href="<?php echo base_url();?>about" id="about" >เกี่ยวกับเรา</a>
@@ -54,7 +48,7 @@
                     <div class="nav-dropdown" style="width: 250px;">
                         <a class="<?php if($this->uri->segment(1)=="Extended_warranty"){echo "active";} ?>" href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>   
                         <a class="<?php if($this->uri->segment(1)=="Roadside_ast_service"){echo "active";}?>" href="<?php echo base_url();?>Roadside_ast_service">Smart Roadside Assistant Service</a>
-                        <a class="<?php if($this->uri->segment(1)=="claim_service"){echo "active";}?>" href="<?php echo base_url();?>claim_service">Smart Claim Service</a>
+                        <a class="<?php if($this->uri->segment(1)=="smart_tpa"){echo "active";}?>" href="<?php echo base_url();?>smart_tpa">Smart TPA Service</a>
                         <a class="<?php if($this->uri->segment(1)=="orico"){echo "active";}?>" href="<?php echo base_url();?>oricocare">Orico Care</a>
                     </div>
             </div>
@@ -62,6 +56,7 @@
             <a class="<?php if($this->uri->segment(1)=="news"){echo "active";}?>" href="<?php echo base_url();?>news" id="news">ข่าวสารและกิจกรรม</a>
             <a class="<?php if($this->uri->segment(1)=="partner"){echo "active";}?>" href="<?php echo base_url();?>partner" id="partner">พันธมิตร</a>
             <a class="<?php if($this->uri->segment(1)=="contactus"){echo "active";}?>" href="<?php echo base_url();?>contactus" id="contactus">ติดต่อเรา</a>
+        
         </div>
 </div>
 
@@ -83,8 +78,8 @@
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>">ซื้อผลิตภัณฑ์</a>
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>Roadside_ast_service">Smart Roadside Assistant Service</a>
-                <a class="about nav-item nav-link" href="<?php echo base_url();?>Claim_Service">Smart Claim Service</a>
-                <a class="about nav-item nav-link" href="<?php echo base_url();?>Orico">Orico </a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>smart_tpa">Smart TPA Service</a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>Oricocare">Orico Care</a>
 
                 <!-- <a class="promotion nav-item nav-link" href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a> -->
                 <a class="news nav-item nav-link" href="<?php echo base_url();?>news">ข่าวสารและกิจกรรม</a>

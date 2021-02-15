@@ -226,4 +226,11 @@ hr {
     color: #ffffff;
     box-shadow: 2px 3px 3px 0px #797979;
 }
+
+.btn-de {
+    color: #black;
+    background-color: #a3cfd2;
+    box-shadow: 2px 3px 3px 0px #b4b4b4;
+    
+}
 </style>

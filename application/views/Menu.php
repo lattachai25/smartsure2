@@ -1,40 +1,28 @@
+
 <style>
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+#nav a.active {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff!important;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+
+.tel{
+    border:2px solid #979797; 
+    background-color: #a3a3a3;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+#nav a {
+    padding: 8px 45px !important;
+    margin: 8px 1px;
+    padding: 8px 36px !important;
+    margin: 0 10px;
+    font-weight: 400;
+    color: #2c3e50;
+    text-decoration: none;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
-
 
 <!--Desktop / Tablet -->
 <div class="d-none d-md-block">
@@ -47,47 +35,33 @@
                     </div>
                 </a>
             </td>
-            <td width="50%" align="right" style="padding: 20px 20px 0;">
-                <img alt="phone" src="<?php echo base_url(); ?>assets/images/phone.png" width="4%" class="pb-2">
-                <span style="margin-left: 15px; color: #ffffff; font-size: 23px; font-weight: bold;">02-002-1234</span>
+            <td width="50%" align="right">
+                <img alt="phone" src="<?php echo base_url(); ?>assets/images/โทรศัพท์-01.png" width="40%"  class="pb-2">
             </td>
         </tr>
     </table>
-
-    <div id="nav">
-        <a href="<?php echo base_url();?>" id="home" class="active">หน้าหลัก</a>
-        <a href="<?php echo base_url();?>about" id="about">เกี่ยวกับเรา</a>
-        <a href="<?php echo base_url();?>#" id="service">ซื้อผลิตภัณฑ์</a>
-
-        <!-- <div class="service-dropdown" >
-                <a href="<?php echo base_url();?>#" id="service">ซื้อผลิตภัณฑ์</a>
-                <div class="nav-dropdown" style="width: 250px;">
-                    <a href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>   
-                    <a href="<?php echo base_url(); ?>Roadside_ast_service">Smart Roadside Assistant Service</a>
-                    <a href="<?php echo base_url(); ?>Claim_Service">Smart Claim Service</a>
-                </div>
-            </div> -->
-
-        <a href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a>
-        <a href="<?php echo base_url();?>news" id="news">ข่าวสารและกิจกรรม</a>
-        <!-- <a href="<?php echo base_url();?>#" id="service">พันธมิตร</a> -->
-        <a class="dropdown" href="<?php echo base_url();?>">พันธมิตร</a>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+        <div id="nav" > 
+            <a class="<?php if($this->uri->segment(1)==""){echo "active";}?>" href="<?php echo base_url();?>" id="home" >หน้าหลัก</a>
+            <a class="<?php if($this->uri->segment(1)=="about"){echo "active";}?>" href="<?php echo base_url();?>about" id="about" >เกี่ยวกับเรา</a>
+            <div class="service-dropdown" >
+                <a >ซื้อผลิตภัณฑ์</a>
+                    <div class="nav-dropdown" style="width: 250px;">
+                        <a class="<?php if($this->uri->segment(1)=="Extended_warranty"){echo "active";} ?>" href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>   
+                        <a class="<?php if($this->uri->segment(1)=="Roadside_ast_service"){echo "active";}?>" href="<?php echo base_url();?>Roadside_ast_service">Smart Roadside Assistant Service</a>
+                        <a class="<?php if($this->uri->segment(1)=="smart_tpa"){echo "active";}?>" href="<?php echo base_url();?>smart_tpa">Smart TPA Service</a>
+                        <a class="<?php if($this->uri->segment(1)=="orico"){echo "active";}?>" href="<?php echo base_url();?>oricocare">Orico Care</a>
+                    </div>
+            </div>
+            <!-- <a href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a> -->
+            <a class="<?php if($this->uri->segment(1)=="news"){echo "active";}?>" href="<?php echo base_url();?>news" id="news">ข่าวสารและกิจกรรม</a>
+            <a class="<?php if($this->uri->segment(1)=="partner"){echo "active";}?>" href="<?php echo base_url();?>partner" id="partner">พันธมิตร</a>
+            <a class="<?php if($this->uri->segment(1)=="contactus"){echo "active";}?>" href="<?php echo base_url();?>contactus" id="contactus">ติดต่อเรา</a>
+        
         </div>
-        <!-- <div class="service-dropdown">
-                <a href="<?php echo base_url();?>#" id="service">พันธมิตร</a>
-                <div class="nav-dropdown">
-                    <a href="<?php echo base_url();?>orico">Orico</a>   
-                    <a href="<?php echo base_url(); ?>cimb">CIMB</a>
-                </div>
-            </div> -->
-
-        <a href="<?php echo base_url();?>contactus" id="contactus">ติดต่อเรา</a>
-    </div>
 </div>
+
+
+<!-- mobile -->
 
 <div class="d-md-none d-block" style="margin-bottom: 20px;">
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -101,26 +75,22 @@
             <div class="navbar-nav" style="padding-top: 20px;">
                 <a class="home nav-item nav-link active" href="<?php echo base_url();?>">หน้าหลัก <span class="sr-only">(current)</span></a>
                 <a class="about nav-item nav-link" href="<?php echo base_url();?>about">เกี่ยวกับเรา</a>
-                <div class="service-dropdown">
-                <a href="<?php echo base_url();?>#" id="service">ซื้อผลิตภัณฑ์</a>
-                <div class="nav-dropdown">
-                    <a href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>  
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>">ซื้อผลิตภัณฑ์</a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>Extended_warranty">Smart Extended Warranty</a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>Roadside_ast_service">Smart Roadside Assistant Service</a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>smart_tpa">Smart TPA Service</a>
+                <a class="about nav-item nav-link" href="<?php echo base_url();?>Oricocare">Orico Care</a>
 
-                    <div class="service-dropdown">
-                    <a href="<?php echo base_url(); ?>Roadside_ast_service">Smart Roadside Assistant Service</a>
-            </div>
-
-                    <a href="<?php echo base_url(); ?>Claim_Service">Smart Claim Service</a>
-                </div>
-            </div>
+                <!-- <a class="promotion nav-item nav-link" href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a> -->
                 <a class="news nav-item nav-link" href="<?php echo base_url();?>news">ข่าวสารและกิจกรรม</a>
-                <div class="service-dropdown">
-                <a href="<?php echo base_url();?>#" id="service">พันธมิตร</a>
+              
+                <!-- <div class="service-dropdown">
+                <a href="<?php echo base_url();?>" id="service">พันธมิตร</a>
                 <div class="nav-dropdown">
                     <a href="<?php echo base_url();?>orico">Orico</a>   
                     <a href="<?php echo base_url(); ?>cimb">CIMB</a>
                 </div>
-            </div>
+            </div> -->
                 <a class="contactus nav-item nav-link" href="<?php echo base_url();?>contactus">ติดต่อเรา</a>
             </div>
         </div>

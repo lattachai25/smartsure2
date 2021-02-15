@@ -86,6 +86,7 @@ $Extended_warranty = $query->row();
             </div>
           </div>
 
+<!-- 
            <hr />
           <div class="row topic-detail">
             <div class="col-lg-3 font-weight-bold">
@@ -96,9 +97,9 @@ $Extended_warranty = $query->row();
               <?php echo $Extended_warranty->unexcept ?>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <hr />
+          <!-- <hr />
           <div class="row topic-detail">
             <div class="col-lg-3 font-weight-bold">
               รายละเอียดความคุ้มครอง
@@ -108,7 +109,7 @@ $Extended_warranty = $query->row();
                 <?php echo $Extended_warranty->cover_detail ?>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <hr />
           <div class="row topic-detail">
@@ -121,7 +122,7 @@ $Extended_warranty = $query->row();
               </div>
             </div>
           </div>
-      
+
           <hr />
           <div class="row topic-detail">
             <div class="col-lg-3 font-weight-bold">
@@ -134,11 +135,13 @@ $Extended_warranty = $query->row();
             </div>
           </div>
         </div>
-		</div>
+    </div>
+    
     <div class="button">
-			<a href="<?php echo base_url(); ?>/assets/uploads/extended_warranty/<?php echo $Extended_warranty->pdf?>" target="_blank" class="btn btn-info">รายละเอียดแพคเกจ</a>
+			<a class="btn btn-de" href="<?php echo base_url(); ?>/assets/uploads/extended_warranty/<?php echo $Extended_warranty->pdf?>" target="_blank" class="btn btn-info">รายละเอียดแพคเกจ</a>
       <a href="<?php echo base_url(); ?>customerInfo" class="btn btn-buy">ซื้อผลิตภัณฑ์</a>
     </div>
+    
 </div>
 
 <script type="text/javascript">
@@ -150,6 +153,7 @@ $Extended_warranty = $query->row();
         $('a.product').addClass("active");
     });
 </script>
+
 <style>
 .detail{
   text-align: left;
@@ -222,6 +226,16 @@ hr {
     box-shadow: 2px 3px 3px 0px #b4b4b4;
 }
 .btn-buy:hover{
+    color: #ffffff;
+    box-shadow: 2px 3px 3px 0px #797979;
+}
+.btn-de {
+    color: #black;
+    background-color: #a3cfd2;
+    box-shadow: 2px 3px 3px 0px #b4b4b4;
+    
+}
+.btn-de:hover{
     color: #ffffff;
     box-shadow: 2px 3px 3px 0px #797979;
 }
