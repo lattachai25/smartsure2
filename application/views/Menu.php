@@ -22,7 +22,7 @@
 }
 
 .dropdown-content a {
-  color: black;
+  color: #04162b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

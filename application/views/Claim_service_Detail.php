@@ -222,7 +222,7 @@ hr {
 }
 .btn-buy {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #04162b ;
     box-shadow: 2px 3px 3px 0px #b4b4b4;
 }
 .btn-buy:hover{

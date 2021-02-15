@@ -134,12 +134,12 @@ form {
 }
 .form-left {
   padding: 10px 20px;
-  background-color: #a2ced1;
+  background-color: #04162b ;
   border-right: 15px solid #ffffff;
 }
 .form-right {
   padding: 10px 20px;
-  background-color: #a2ced1;
+  background-color: #04162b ;
   border-left: 15px solid #ffffff;
 }
 input[type="text"] {
@@ -153,7 +153,7 @@ input[type="text"] {
 .btn-submit {
   margin-top: 5px;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #04162b ;
 }
 @media only screen and (max-width: 991px){
   .form-left {

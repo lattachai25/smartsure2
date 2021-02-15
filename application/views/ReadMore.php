@@ -62,7 +62,7 @@
   font-size: 25px;
   text-align: left;
   font-weight: 600;
-  background-color: #000000;
+  background-color: #04162b ;
 }
 .content {
   margin-top: 0;
@@ -72,6 +72,6 @@
   padding: 20px;
   text-align: left;
   border: 2px solid #f5f5f5;
-  background-image: linear-gradient(to left top, #a2ced1, #ffffff);
+  background-image: linear-gradient(to left top, #04162b , #ffffff);
 }
 </style>

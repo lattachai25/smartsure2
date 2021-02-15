@@ -70,7 +70,7 @@ $(document).ready(function() {
 
 .btn-send {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #04162b ;
 }
 
 .btn-send:hover {
@@ -92,7 +92,7 @@ $(document).ready(function() {
     padding: 40px 30px;
     font-weight: 600;
     text-align: left;
-    color: #000000;
+    color: #04162b ;
     background-color: #ffffff;
 }
 

@@ -86,7 +86,7 @@ if (isset($_GET['brand']) && isset($_GET['model'])){
 
 .frame {
   padding: 10px;
-  border: 9px solid #a2ced1;
+  border: 9px solid #04162b ;
 }
 .images{
   width: 100%;
@@ -103,7 +103,7 @@ if (isset($_GET['brand']) && isset($_GET['model'])){
   font-weight: bold;
 }
 .details-title {
-  background-color: #000000;
+  background-color: #04162b ;
   color: #ffffff;
   padding: 5px;
   margin-bottom: 10px;
@@ -118,7 +118,7 @@ if (isset($_GET['brand']) && isset($_GET['model'])){
 }
 .btn-more {
   padding: 4px 10px 1px;
-  background-color: #000000;
+  background-color: #04162b ;
   color: #ffffff;
 }
 .btn-more:hover {

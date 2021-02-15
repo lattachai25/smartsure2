@@ -1,9 +1,9 @@
-
 <style>
 #nav a.active {
     font-size: 20px;
     font-weight: 300;
-    color: #ffffff!important;
+    color: #04162b !important;
+    background-color:white;
 }
 
 
@@ -18,6 +18,7 @@
     margin: 8px 1px;
     padding: 8px 36px !important;
     margin: 0 10px;
+    color:white;
 
     /* margin: 8px 1px;
     padding: 8px 36px !important;

@@ -24,7 +24,7 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color:#a2ced1;
+        background-color:#04162b ;
         /* background:url('<?php echo base_url();?>image/bg_login.jpg') no-repeat center center fixed; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -67,7 +67,7 @@
         <label class="checkbox" style="color: #3d3d3d;">
           <input type="checkbox" value="remember-me" name='expire'> &nbsp; Remember me
         </label>
-        <button class="btn btn-lg btn btn btn-block" type="submit" style=" background-color:#000000; color:#fff;" >Login</button>
+        <button class="btn btn-lg btn btn btn-block" type="submit" style=" background-color:#04162b ; color:#fff;" >Login</button>
       </form>
 
     </div>

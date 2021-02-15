@@ -58,7 +58,7 @@ $promotions = $query->result();
 .frame {
   margin-bottom: 25px;
   padding: 10px;
-  background-color: #a2ced1;
+  background-color: #04162b ;
   box-shadow: 0 35px 10px -30px #6e6e6e;
 }
 .promotion-title {
@@ -67,7 +67,7 @@ $promotions = $query->result();
   font-size: 18px;
   font-weight: 600;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #04162b ;
 }
 .details-title {
   padding: 5px;
@@ -86,7 +86,7 @@ $promotions = $query->result();
 }
 .btn-more {
   padding: 4px 10px 1px;
-  background-color: #000000;
+  background-color: #04162b ;
   color: #ffffff;
 }
 .btn-more:hover {

@@ -63,17 +63,17 @@ if ( ! function_exists('byte_format'))
 		$CI =& get_instance();
 		$CI->lang->load('number');
 
-		if ($num >= 1000000000000)
+		if ($num >= 04162b black )
 		{
 			$num = round($num / 1099511627776, $precision);
 			$unit = $CI->lang->line('terabyte_abbr');
 		}
-		elseif ($num >= 1000000000)
+		elseif ($num >= 04162b 000)
 		{
 			$num = round($num / 1073741824, $precision);
 			$unit = $CI->lang->line('gigabyte_abbr');
 		}
-		elseif ($num >= 1000000)
+		elseif ($num >= 04162b )
 		{
 			$num = round($num / 1048576, $precision);
 			$unit = $CI->lang->line('megabyte_abbr');

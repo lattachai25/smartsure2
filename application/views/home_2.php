@@ -161,7 +161,7 @@ $product2 = $query->result();
   padding: 0 12px;
   font-weight: 600;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #04162b ;
   border-radius: 0 0 7px 7px;
 }
 .rec-product .box-detail{
@@ -195,7 +195,7 @@ $product2 = $query->result();
   padding: 8px 12px 3px;
   font-weight: 600;
   color: #ffffff;
-  background-color: #a2ced1;
+  background-color: #04162b ;
   border: 2px solid #70b3b8;
   box-shadow: 2px 2px 3px #b1b1b1;
 }
@@ -207,7 +207,7 @@ $product2 = $query->result();
   bottom: 0;
   margin-bottom: 8px;
   padding: 8px;
-  background-color: #000000;
+  background-color: #04162b ;
   border-bottom-right-radius: 15px;
 }
 .btn-buy a {

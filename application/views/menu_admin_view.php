@@ -17,7 +17,7 @@
 }
 
 .navbar-brand {
-    color: black !important;
+    color: #04162b !important;
 }
 
 #page-wrapper {

@@ -39,7 +39,7 @@
   margin: 0 50px 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #000000;
+  background-color: #04162b ;
   box-shadow: 4px 6px 3px -3px #8c8c8c;
 }
 .text {
