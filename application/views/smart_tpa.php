@@ -93,6 +93,7 @@
 }
 .details {
   text-align: left;
+  word-wrap: break-word;
 }
 .button {
   text-align: right;
