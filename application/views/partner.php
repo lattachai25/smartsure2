@@ -93,7 +93,7 @@ $(document).ready(function() {
 .frame {
     margin-bottom: 25px;
     padding: 10px;
-    background-color: #04162b ;
+    background-color: #a2ced1;
     box-shadow: 0 35px 10px -30px #6e6e6e;
 }
 
@@ -103,7 +103,7 @@ $(document).ready(function() {
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
-    background-color: #04162b ;
+    background-color: #000000;
 }
 
 .details-title {
@@ -126,7 +126,7 @@ $(document).ready(function() {
 
 .btn-more {
     padding: 4px 10px 1px;
-    background-color: #04162b ;
+    background-color: #000000;
     color: #ffffff;
 }
 

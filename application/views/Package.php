@@ -33,7 +33,7 @@
 
 .frame {
   padding: 10px;
-  border: 9px solid #04162b ;
+  border: 9px solid #a2ced1;
 }
 .images{
   width: 100%;
@@ -50,7 +50,7 @@
   font-weight: bold;
 }
 .details-title {
-  background-color: #04162b ;
+  background-color: #000000;
   color: #ffffff;
   padding: 5px;
   margin-bottom: 10px;
@@ -65,7 +65,7 @@
 }
 .btn-more {
   padding: 4px 10px 1px;
-  background-color: #04162b ;
+  background-color: #000000;
   color: #ffffff;
 }
 .btn-more:hover {
@@ -79,7 +79,7 @@
   color: #ffffff;
   font-size: 28px;
   font-weight: bold;
-  background-color: #04162b ;
+  background-color: #000000;
   border-bottom-right-radius: 30px;
   box-shadow: 0 4px 2px #b1b1b1;
 }

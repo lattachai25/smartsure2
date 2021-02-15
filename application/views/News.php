@@ -72,7 +72,7 @@ $news = $query->result();
 	border-color: #ffffff;
 	outline: 3px solid white;
   outline-offset: -12px;
-  background-color: #04162b ;
+  background-color: #a2ced1;
   box-shadow: 0 35px 10px -30px #6e6e6e;
 }
 .promotion-title {
@@ -81,7 +81,7 @@ $news = $query->result();
   font-size: 18px;
   font-weight: 600;
   color: #ffffff;
-  background-color: #04162b ;
+  background-color: #000000;
 }
 .details-title {
   padding: 5px;
@@ -100,7 +100,7 @@ $news = $query->result();
 }
 .btn-more {
   padding: 4px 10px 1px;
-  background-color: #04162b ;
+  background-color: #000000;
   color: #ffffff;
 }
 .btn-more:hover {

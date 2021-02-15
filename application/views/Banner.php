@@ -125,7 +125,7 @@ $ccs = $query->result();
                         </select>
 
                         <input type="number" id="mileage" name="mileage" class="form-control"
-                            style="background-color:white; color:#04162b ; " placeholder=" เลขไมล์" autocomplete="off"
+                            style="background-color:white; color:#000000; " placeholder=" เลขไมล์" autocomplete="off"
                             value="" required>
 
 						
@@ -277,7 +277,7 @@ a {
 
 .search {
     padding: 0;
-    background-color: #04162b;
+    background-color: #A2CED1;
     color: #ffffff;
 }
 
@@ -318,7 +318,7 @@ a {
     font-size: 17px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #04162b ;
+    background-color: #000000;
 }
 
 .search-form button:hover {

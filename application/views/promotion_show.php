@@ -43,7 +43,7 @@ $promotions = $query->row();
     width: 100%;
     margin: 0px;
     padding: 5px 50px 2px;
-    background-color: 04162b;
+    background-color: black;
     font-size: 25px;
     text-align: left;
     font-weight: 600;

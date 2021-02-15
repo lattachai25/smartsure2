@@ -55,7 +55,7 @@ $about = $query->result();
   border-radius: 8px;
   color: #ffffff;
   border: 4px solid #f5f5f5;
-  background-color: #04162b ;
+  background-color: #a2ced1;
   box-shadow: 0 7px 10px -2px #8c8c8c;
 }
 </style>
